@@ -8,7 +8,7 @@ def index(request):
     """
     首页
     """
-    return web.Response(body=b'<h1>Hello</h1>', content_type='text/html')
+    return web.Response(body=b'<h1>Hello Coinabc</h1>', content_type='text/html')
 
 
 async def main(loop):
